@@ -30,4 +30,5 @@ jobs:
           DJANGO_DEBUG: False
           DJANGO_SECRET_KEY: ${{ secrets.DJANGO_SECRET_KEY }}
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          CACHE_URL: ${{ secrets.CACHE_URL }}
         run: uv run python manage.py test
