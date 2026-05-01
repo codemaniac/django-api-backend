@@ -1,0 +1,5 @@
+from config.env import env
+
+
+CLERK_PUBLISHABLE_KEY = env("CLERK_PUBLISHABLE_KEY")
+CLERK_API_SECRET_KEY = env("CLERK_API_SECRET_KEY")
